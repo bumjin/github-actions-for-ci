@@ -28,7 +28,7 @@ jobs:
     - uses: actions/upload-artifact@main
     needs: build
         name: webpack artifacts
-        path: public/
+    needs: build
         
         
 test:
